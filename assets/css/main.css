@@ -3009,6 +3009,7 @@ input, select, textarea {
 		border-radius:3%;
 		width:80%;
 		border:5px solid rgba(254, 252, 252, 0.06);
+		border-bottom:5px solid rgba(254, 252, 252, 0.06);
 		/* align-items: center; */
 		
 		
