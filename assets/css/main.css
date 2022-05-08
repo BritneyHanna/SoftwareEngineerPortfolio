@@ -2221,7 +2221,7 @@ input, select, textarea {
 
 	#intro {
 		padding-bottom: 8em;
-		text-align: left;
+		text-align: center;
 	}
 
 		#intro p.style1 {
@@ -2996,12 +2996,12 @@ input, select, textarea {
 	}
 
 	/* Additional Styles */
-	.about-container{
+	/* .about-container{
 		display:grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap:6rem;
 	
-	}
+	} */
 	
 
 	.about-img img{
