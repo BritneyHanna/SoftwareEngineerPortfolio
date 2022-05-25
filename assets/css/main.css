@@ -3039,17 +3039,22 @@ input, select, textarea {
 	}
 
 	}
-	/* add transition for fa icons */
-	.fa-check{
-		transition:hover,1s,ease-out,300ms;
-	}
-
-	.fa-check:hover{
-		font-size:110%;
 	
-		
-	}
 	
 	a{
 		text-decoration: none;
+	}
+
+	.featured{
+		transition-property:transform;
+		transition-duration: .8s;
+		
+		transition-timing-function:ease-out;
+		
+	   
+	}
+.featured:hover{
+		transform:translate(5% ,-10%)
+		scale(1.1);
+	
 	}
