@@ -1660,7 +1660,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #5A3E51;
+			background-color: #49476D;
 		}
 
 		input[type="button"].large,
@@ -1677,7 +1677,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #5A3E51 url("images/overlay.png");
+			background: #49476D url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1686,7 +1686,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #5A3E51;
+				background-color: #49476D;
 			}
 
 			input[type="button"].style1:active,
@@ -1694,7 +1694,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #5A3E51;
+				background-color: #49476D;
 			}
 
 		input[type="button"].style2,
@@ -1855,7 +1855,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #5A3E51!important;
+			color: #49476D!important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2009,14 +2009,14 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #5A3E51 url("images/overlay.png");
+			background: #49476D url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 			
 		}
 
 			.wrapper.style1 .title {
-				background: #5A3E51 url("images/overlay.png");
+				background: #49476D url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2163,6 +2163,7 @@ input, select, textarea {
 
 				#nav > ul > li:hover > a {
 					color: #fff;
+					font-size:0.72em;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
@@ -2215,6 +2216,8 @@ input, select, textarea {
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
 				color: #fff;
+				
+
 			}
 
 /* Intro */
@@ -2271,7 +2274,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #5A3E51;
+			color: #49476D;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -3035,4 +3038,18 @@ input, select, textarea {
 		font-size: 20rem;
 	}
 
+	}
+	/* add transition for fa icons */
+	.fa-check{
+		transition:hover,1s,ease-out,300ms;
+	}
+
+	.fa-check:hover{
+		font-size:110%;
+	
+		
+	}
+	
+	a{
+		text-decoration: none;
 	}
