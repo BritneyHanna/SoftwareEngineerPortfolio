@@ -2163,7 +2163,7 @@ input, select, textarea {
 
 				#nav > ul > li:hover > a {
 					color: #fff;
-					font-size:0.72em;
+					transform:scale(1.1);
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
@@ -3057,4 +3057,10 @@ input, select, textarea {
 		transform:translate(5% ,-10%)
 		scale(1.1);
 	
+	}
+
+	.icon-name{
+		font-weight:bold;
+		color:#49476D;
+		font-size:large;
 	}
