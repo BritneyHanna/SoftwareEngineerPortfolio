@@ -3041,6 +3041,7 @@ input, select, textarea {
 	}
 
 	@media all and (max-width:700px){
+
 		.about-container{
 		display:grid;
 		grid-template-columns: 1fr;
@@ -3110,3 +3111,5 @@ input, select, textarea {
 		color:#49476D;
 		font-size:large;
 	}
+
+
